@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('assets/norse/Norsebold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+p,
+main,
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,
+main,
+legend {
+    font-weight: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.sidebar {
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg) ;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-family: 'norsebold';
+    font-size: 100px;
+}
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+span {
+    color: #596D48;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem 3rem;
+    font-weight: 700;
+}
+
+fieldset {
+    border: none;
+}
+
+body {
+    background-color: rgb(239, 238, 238);
+}
+
+form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
+}
